@@ -11,7 +11,11 @@ dependencies = [
     "ipython>=8.10",
     "jupyterlab>=3.0",
     "notebook",
-    "kedro~=1.2.0"
+    "kedro~=1.2.0",
+    "scikit-learn>=1.7.2",
+    "pandas-stubs>=2.3.3.260113",
+    "kedro-datasets>=9.2.0",
+    "kedro-viz>=12.3.0",
 ]
 
 [project.scripts]
@@ -81,3 +85,6 @@ select = [
     "T201", # Print Statement
 ]
 ignore = ["E501"]  # Ruff format takes care of line-too-long
+
+[tool.kedro_telemetry]
+project_id = "2b7f871bf26e49d3bac90d2af9f5a352"
