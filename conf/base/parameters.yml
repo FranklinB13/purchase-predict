@@ -1,1 +1,4 @@
 test_ratio: 0.3
+automl_max_evals: 10
+gcp_project_id: "project-purchase-predict"
+gcs_primary_folder: "bucket-purchase-predict/primary.csv"

@@ -25,3 +25,7 @@ y_test:
 transform_pipeline:
   type: pickle.PickleDataset
   filepath: data/04_feature/transform_pipeline.pkl
+
+model:
+  type: pickle.PickleDataset
+  filepath: data/06_models/model.pkl
